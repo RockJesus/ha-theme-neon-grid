@@ -6,7 +6,7 @@
 #  放置：/config/themes/neon-grid.yaml
 #  启用：configuration.yaml → frontend: themes: !include_dir_merge_named themes
 #  重载：动作 frontend.reload_themes
-#  版本：v1.0.7
+#  版本：v1.0.8
 # ══════════════════════════════════════════════════════════════════
 
 "Neon Grid":
@@ -134,24 +134,24 @@
       bar-box-shadow: "0 2px 12px rgba(0, 0, 0, 0.66)"
 
       # ── 3.4 导航与页头 ───────────────────────────────────────
-      sidebar-background-color: "rgba(9, 13, 20, 0.78)"
+      sidebar-background-color: "rgba(7, 10, 16, 0.86)"
       sidebar-text-color: "#E6EAF2"
       sidebar-selected-text-color: "#2FE3D2"
       sidebar-selected-icon-color: "#2FE3D2"
       sidebar-selected-background-color: "rgba(47, 227, 210, 0.08)"
       sidebar-icon-color: "rgba(230, 234, 242, 0.55)"
-      app-header-background-color: "rgba(10, 14, 21, 0.60)"
+      app-header-background-color: "rgba(8, 11, 17, 0.52)"
       app-header-backdrop-filter: "blur(20px) saturate(150%)"
       app-header-text-color: "#E6EAF2"
       app-header-border-bottom: "1px solid rgba(146, 158, 178, 0.16)"
       app-theme-color: "#06070C"
 
       # ── 3.5 卡片 ─────────────────────────────────────────────
-      ha-card-background: "rgba(15, 20, 29, 0.62)"
+      ha-card-background: "rgba(10, 14, 21, 0.68)"
       ha-card-backdrop-filter: "blur(22px) saturate(150%)"
       ha-card-border-width: "1px"
       ha-card-border-color: "rgba(255, 255, 255, 0.07)"
-      ha-card-border-radius: "14px"
+      ha-card-border-radius: "16px"
       ha-card-box-shadow: "0 0 0 1px rgba(255, 255, 255, 0.05), 0 26px 54px -26px rgba(0, 0, 0, 0.90), 0 0 42px -18px rgba(58, 224, 210, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.09)"
       ha-card-header-color: "#E6EAF2"
       ha-card-header-font-size: "20px"
@@ -593,23 +593,23 @@
 
       bar-box-shadow: "0 2px 12px rgba(0, 0, 0, 0.68)"
 
-      sidebar-background-color: "rgba(11, 9, 20, 0.80)"
+      sidebar-background-color: "rgba(8, 6, 15, 0.86)"
       sidebar-text-color: "#EDE9F7"
       sidebar-selected-text-color: "#A99BFF"
       sidebar-selected-icon-color: "#A99BFF"
       sidebar-selected-background-color: "rgba(169, 155, 255, 0.08)"
       sidebar-icon-color: "rgba(237, 233, 247, 0.55)"
-      app-header-background-color: "rgba(11, 9, 19, 0.62)"
+      app-header-background-color: "rgba(9, 7, 16, 0.54)"
       app-header-backdrop-filter: "blur(20px) saturate(150%)"
       app-header-text-color: "#EDE9F7"
       app-header-border-bottom: "1px solid rgba(155, 147, 178, 0.16)"
       app-theme-color: "#0A070F"
 
-      ha-card-background: "rgba(16, 13, 27, 0.64)"
+      ha-card-background: "rgba(11, 9, 21, 0.70)"
       ha-card-backdrop-filter: "blur(22px) saturate(150%)"
       ha-card-border-width: "1px"
       ha-card-border-color: "rgba(255, 255, 255, 0.07)"
-      ha-card-border-radius: "14px"
+      ha-card-border-radius: "16px"
       ha-card-box-shadow: "0 0 0 1px rgba(255, 255, 255, 0.05), 0 26px 54px -26px rgba(0, 0, 0, 0.90), 0 0 42px -18px rgba(169, 155, 255, 0.20), inset 0 1px 0 rgba(255, 255, 255, 0.09)"
       ha-card-header-color: "#EDE9F7"
       ha-card-header-font-size: "20px"
