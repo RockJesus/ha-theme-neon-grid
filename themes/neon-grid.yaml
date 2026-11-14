@@ -6,7 +6,7 @@
 #  放置：/config/themes/neon-grid.yaml
 #  启用：configuration.yaml → frontend: themes: !include_dir_merge_named themes
 #  重载：动作 frontend.reload_themes
-#  版本：v1.0.5
+#  版本：v1.0.6
 # ══════════════════════════════════════════════════════════════════
 
 "Neon Grid":
@@ -593,24 +593,24 @@
 
       bar-box-shadow: "0 2px 12px rgba(0, 0, 0, 0.68)"
 
-      sidebar-background-color: "rgba(11, 9, 20, 0.74)"
+      sidebar-background-color: "rgba(10, 7, 20, 0.78)"
       sidebar-text-color: "#EDE9F7"
       sidebar-selected-text-color: "#A99BFF"
       sidebar-selected-icon-color: "#A99BFF"
       sidebar-selected-background-color: "rgba(169, 155, 255, 0.08)"
       sidebar-icon-color: "rgba(237, 233, 247, 0.55)"
-      app-header-background-color: "rgba(11, 9, 20, 0.58)"
+      app-header-background-color: "rgba(10, 7, 20, 0.62)"
       app-header-backdrop-filter: "blur(20px) saturate(150%)"
       app-header-text-color: "#EDE9F7"
       app-header-border-bottom: "1px solid rgba(169, 155, 255, 0.32)"
       app-theme-color: "#0A070F"
 
-      ha-card-background: "rgba(15, 12, 26, 0.56)"
+      ha-card-background: "rgba(11, 8, 22, 0.64)"
       ha-card-backdrop-filter: "blur(22px) saturate(150%)"
       ha-card-border-width: "1px"
-      ha-card-border-color: "rgba(169, 155, 255, 0.18)"
+      ha-card-border-color: "rgba(169, 155, 255, 0.22)"
       ha-card-border-radius: "14px"
-      ha-card-box-shadow: "0 0 0 1px rgba(169, 155, 255, 0.08), 0 0 30px -10px rgba(169, 155, 255, 0.26), inset 0 1px 0 rgba(255, 255, 255, 0.10), 0 22px 50px -24px rgba(0, 0, 0, 0.85)"
+      ha-card-box-shadow: "0 0 0 1px rgba(169, 155, 255, 0.10), 0 0 34px -10px rgba(169, 155, 255, 0.30), inset 0 1px 0 rgba(255, 255, 255, 0.10), 0 22px 50px -24px rgba(0, 0, 0, 0.88)"
       ha-card-header-color: "#EDE9F7"
       ha-card-header-font-size: "20px"
 
