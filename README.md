@@ -1,6 +1,6 @@
 # Neon Grid · Neon Plasma
 
-`v1.0.1` · Home Assistant 2026.11.x
+`v1.0.2` · Home Assistant 2026.11.x
 
 Home Assistant 赛博朋克主题合集。**零依赖、纯 YAML 变量**，不改 DOM、不注入 JS、不装额外集成 —— 卸载即恢复默认。
 
@@ -90,6 +90,11 @@ frontend:
 - 值为 `var()` 时不会自动派生 `rgb-*`，此时需手写对应 `rgb-` 变量。
 
 ## 更新日志
+
+### v1.0.2 · 2026-11-14
+
+- **修复自定义卡片里的浅灰块**：`custom:service-call` 等卡片开关的滑块底色取自 `--state-inactive-color`，此前主题未定义该变量，HA 按副文本色派生成浅灰，在深色主题上像亮补丁。现在暗色钉为 `#4A5266`（Grid）/ `#4B4363`（Plasma），亮色为 `#93A0B4` / `#9C93B0`。
+- 变量：暗色 199 条、亮色 135 条。
 
 ### v1.0.1 · 2026-11-14
 

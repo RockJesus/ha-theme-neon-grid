@@ -6,7 +6,7 @@
 #  放置：/config/themes/neon-grid.yaml
 #  启用：configuration.yaml → frontend: themes: !include_dir_merge_named themes
 #  重载：动作 frontend.reload_themes
-#  版本：v1.0.1
+#  版本：v1.0.2
 # ══════════════════════════════════════════════════════════════════
 
 "Neon Grid":
@@ -96,6 +96,7 @@
       secondary-text-color: "#98A0B4"
       disabled-text-color: "#5A6377"
       disabled-color: "#2A3040"
+      state-inactive-color: "#4A5266"
 
       # ── 3.2 表面三层：页底 / 卡片 / 悬浮 ─────────────────────
       primary-background-color: "#06070C"
@@ -331,6 +332,7 @@
       secondary-text-color: "#55607A"
       disabled-text-color: "#9AA3B4"
       disabled-color: "#DCE1EB"
+      state-inactive-color: "#93A0B4"
 
       primary-background-color: "#F1F4FA"
       card-background-color: "#FFFFFF"
@@ -550,6 +552,7 @@
       secondary-text-color: "#A9A2C0"
       disabled-text-color: "#6E6788"
       disabled-color: "#2A2438"
+      state-inactive-color: "#4B4363"
 
       primary-background-color: "#0A070F"
       card-background-color: "#131020"
@@ -773,6 +776,7 @@
       secondary-text-color: "#5A5473"
       disabled-text-color: "#9C95AE"
       disabled-color: "#DDD8E9"
+      state-inactive-color: "#9C93B0"
 
       primary-background-color: "#F4F1FA"
       card-background-color: "#FFFFFF"
