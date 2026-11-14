@@ -1,6 +1,6 @@
 # Neon Grid · Neon Plasma
 
-`v1.0.2` · Home Assistant 2026.11.x
+`v1.0.3` · Home Assistant 2026.11.x
 
 Home Assistant 赛博朋克主题合集。**零依赖、纯 YAML 变量**，不改 DOM、不注入 JS、不装额外集成 —— 卸载即恢复默认。
 
@@ -90,6 +90,13 @@ frontend:
 - 值为 `var()` 时不会自动派生 `rgb-*`，此时需手写对应 `rgb-` 变量。
 
 ## 更新日志
+
+### v1.0.3 · 2026-11-14
+
+- **透明液体玻璃卡片**：暗色 `ha-card-background: rgba(14,16,24,.52)` / `rgba(19,16,32,.52)`，配 `ha-card-backdrop-filter: blur(22px) saturate(150%)`、1px 冷白描边与内高光；亮色 `rgba(255,255,255,.62)` + `blur(20px) saturate(160%)`。
+- 卡片圆角 10px → 14px，贴合玻璃质感。
+- 全部用 HA 原生的 `--ha-card-*` 变量实现，**不需要 card-mod**；有壁纸背景时玻璃层次最明显。
+- 变量：暗色 201 条、亮色 136 条。
 
 ### v1.0.2 · 2026-11-14
 
