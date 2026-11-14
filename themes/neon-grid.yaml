@@ -6,7 +6,7 @@
 #  放置：/config/themes/neon-grid.yaml
 #  启用：configuration.yaml → frontend: themes: !include_dir_merge_named themes
 #  重载：动作 frontend.reload_themes
-#  版本：v1.0.6
+#  版本：v1.0.7
 # ══════════════════════════════════════════════════════════════════
 
 "Neon Grid":
@@ -92,25 +92,25 @@
       text-light-primary-color: "#04120F"
       text-accent-color: "#1A0010"
 
-      primary-text-color: "#E6EAF2"
-      secondary-text-color: "#98A0B4"
-      disabled-text-color: "#5A6377"
+      primary-text-color: "#E8EDF4"
+      secondary-text-color: "#929EB2"
+      disabled-text-color: "#59647A"
       disabled-color: "#2A3040"
       state-inactive-color: "#4A5266"
 
       # ── 3.2 表面三层：页底 / 卡片 / 悬浮 ─────────────────────
-      primary-background-color: "#04060B"
-      card-background-color: "#0E1018"
-      secondary-background-color: "#161923"
+      primary-background-color: "#06090F"
+      card-background-color: "#0F141D"
+      secondary-background-color: "#171D27"
       clear-background-color: "#06070C"
 
-      ha-color-text-primary: "#E6EAF2"
-      ha-color-text-secondary: "#98A0B4"
-      ha-color-text-disabled: "#5A6377"
+      ha-color-text-primary: "#E8EDF4"
+      ha-color-text-secondary: "#929EB2"
+      ha-color-text-disabled: "#59647A"
       ha-color-text-link: "#2FE3D2"
       ha-color-text-primary-inverted: "#04120F"
 
-      ha-color-surface-default: "#0E1018"
+      ha-color-surface-default: "#0F141D"
       ha-color-surface-low: "#06070C"
       ha-color-surface-lower: "#040509"
       ha-color-surface-default-inverted: "#F4F6FB"
@@ -121,7 +121,7 @@
       ha-color-form-background-disabled: "#12141D"
 
       # ── 3.3 线与影 ───────────────────────────────────────────
-      divider-color: "rgba(230, 234, 242, 0.08)"
+      divider-color: "rgba(146, 158, 178, 0.10)"
       outline-color: "rgba(47, 227, 210, 0.20)"
       outline-hover-color: "rgba(47, 227, 210, 0.38)"
       shadow-color: "rgba(0, 0, 0, 0.66)"
@@ -134,25 +134,25 @@
       bar-box-shadow: "0 2px 12px rgba(0, 0, 0, 0.66)"
 
       # ── 3.4 导航与页头 ───────────────────────────────────────
-      sidebar-background-color: "rgba(9, 12, 19, 0.74)"
+      sidebar-background-color: "rgba(9, 13, 20, 0.78)"
       sidebar-text-color: "#E6EAF2"
       sidebar-selected-text-color: "#2FE3D2"
       sidebar-selected-icon-color: "#2FE3D2"
       sidebar-selected-background-color: "rgba(47, 227, 210, 0.08)"
       sidebar-icon-color: "rgba(230, 234, 242, 0.55)"
-      app-header-background-color: "rgba(9, 12, 19, 0.58)"
+      app-header-background-color: "rgba(10, 14, 21, 0.60)"
       app-header-backdrop-filter: "blur(20px) saturate(150%)"
       app-header-text-color: "#E6EAF2"
-      app-header-border-bottom: "1px solid rgba(47, 227, 210, 0.30)"
+      app-header-border-bottom: "1px solid rgba(146, 158, 178, 0.16)"
       app-theme-color: "#06070C"
 
       # ── 3.5 卡片 ─────────────────────────────────────────────
-      ha-card-background: "rgba(11, 14, 22, 0.56)"
+      ha-card-background: "rgba(15, 20, 29, 0.62)"
       ha-card-backdrop-filter: "blur(22px) saturate(150%)"
       ha-card-border-width: "1px"
-      ha-card-border-color: "rgba(47, 227, 210, 0.16)"
+      ha-card-border-color: "rgba(255, 255, 255, 0.07)"
       ha-card-border-radius: "14px"
-      ha-card-box-shadow: "0 0 0 1px rgba(47, 227, 210, 0.07), 0 0 30px -10px rgba(47, 227, 210, 0.26), inset 0 1px 0 rgba(255, 255, 255, 0.10), 0 22px 50px -24px rgba(0, 0, 0, 0.85)"
+      ha-card-box-shadow: "0 0 0 1px rgba(255, 255, 255, 0.05), 0 26px 54px -26px rgba(0, 0, 0, 0.90), 0 0 42px -18px rgba(58, 224, 210, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.09)"
       ha-card-header-color: "#E6EAF2"
       ha-card-header-font-size: "20px"
 
@@ -384,7 +384,7 @@
       ha-card-background: "rgba(255, 255, 255, 0.62)"
       ha-card-backdrop-filter: "blur(20px) saturate(160%)"
       ha-card-border-width: "1px"
-      ha-card-border-color: "rgba(0, 104, 92, 0.14)"
+      ha-card-border-color: "rgba(15, 23, 42, 0.10)"
       ha-card-border-radius: "14px"
       ha-card-box-shadow: "inset 0 1px 0 rgba(255, 255, 255, 0.85), 0 14px 34px -20px rgba(11, 15, 26, 0.28)"
       ha-card-header-color: "#0B0F1A"
@@ -554,14 +554,14 @@
       text-light-primary-color: "#0B0716"
       text-accent-color: "#04120F"
 
-      primary-text-color: "#EDE9F7"
+      primary-text-color: "#ECE8F7"
       secondary-text-color: "#A9A2C0"
       disabled-text-color: "#6E6788"
       disabled-color: "#2A2438"
       state-inactive-color: "#4B4363"
 
       primary-background-color: "#0A070F"
-      card-background-color: "#131020"
+      card-background-color: "#110E1D"
       secondary-background-color: "#1A1628"
       clear-background-color: "#0A070F"
 
@@ -571,7 +571,7 @@
       ha-color-text-link: "#A99BFF"
       ha-color-text-primary-inverted: "#0B0716"
 
-      ha-color-surface-default: "#131020"
+      ha-color-surface-default: "#110E1D"
       ha-color-surface-low: "#0A070F"
       ha-color-surface-lower: "#06040A"
       ha-color-surface-default-inverted: "#F3F0F8"
@@ -593,24 +593,24 @@
 
       bar-box-shadow: "0 2px 12px rgba(0, 0, 0, 0.68)"
 
-      sidebar-background-color: "rgba(10, 7, 20, 0.78)"
+      sidebar-background-color: "rgba(11, 9, 20, 0.80)"
       sidebar-text-color: "#EDE9F7"
       sidebar-selected-text-color: "#A99BFF"
       sidebar-selected-icon-color: "#A99BFF"
       sidebar-selected-background-color: "rgba(169, 155, 255, 0.08)"
       sidebar-icon-color: "rgba(237, 233, 247, 0.55)"
-      app-header-background-color: "rgba(10, 7, 20, 0.62)"
+      app-header-background-color: "rgba(11, 9, 19, 0.62)"
       app-header-backdrop-filter: "blur(20px) saturate(150%)"
       app-header-text-color: "#EDE9F7"
-      app-header-border-bottom: "1px solid rgba(169, 155, 255, 0.32)"
+      app-header-border-bottom: "1px solid rgba(155, 147, 178, 0.16)"
       app-theme-color: "#0A070F"
 
-      ha-card-background: "rgba(11, 8, 22, 0.64)"
+      ha-card-background: "rgba(16, 13, 27, 0.64)"
       ha-card-backdrop-filter: "blur(22px) saturate(150%)"
       ha-card-border-width: "1px"
-      ha-card-border-color: "rgba(169, 155, 255, 0.22)"
+      ha-card-border-color: "rgba(255, 255, 255, 0.07)"
       ha-card-border-radius: "14px"
-      ha-card-box-shadow: "0 0 0 1px rgba(169, 155, 255, 0.10), 0 0 34px -10px rgba(169, 155, 255, 0.30), inset 0 1px 0 rgba(255, 255, 255, 0.10), 0 22px 50px -24px rgba(0, 0, 0, 0.88)"
+      ha-card-box-shadow: "0 0 0 1px rgba(255, 255, 255, 0.05), 0 26px 54px -26px rgba(0, 0, 0, 0.90), 0 0 42px -18px rgba(169, 155, 255, 0.20), inset 0 1px 0 rgba(255, 255, 255, 0.09)"
       ha-card-header-color: "#EDE9F7"
       ha-card-header-font-size: "20px"
 
@@ -834,7 +834,7 @@
       ha-card-background: "rgba(255, 255, 255, 0.62)"
       ha-card-backdrop-filter: "blur(20px) saturate(160%)"
       ha-card-border-width: "1px"
-      ha-card-border-color: "rgba(74, 42, 140, 0.14)"
+      ha-card-border-color: "rgba(15, 23, 42, 0.10)"
       ha-card-border-radius: "14px"
       ha-card-box-shadow: "inset 0 1px 0 rgba(255, 255, 255, 0.85), 0 14px 34px -20px rgba(18, 14, 31, 0.28)"
       ha-card-header-color: "#120E1F"
