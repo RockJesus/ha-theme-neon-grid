@@ -6,7 +6,7 @@
 #  放置：/config/themes/neon-grid.yaml
 #  启用：configuration.yaml → frontend: themes: !include_dir_merge_named themes
 #  重载：动作 frontend.reload_themes
-#  版本：v1.0.3
+#  版本：v1.0.4
 # ══════════════════════════════════════════════════════════════════
 
 "Neon Grid":
@@ -134,12 +134,13 @@
       bar-box-shadow: "0 2px 12px rgba(0, 0, 0, 0.66)"
 
       # ── 3.4 导航与页头 ───────────────────────────────────────
-      sidebar-background-color: "#04050A"
+      sidebar-background-color: "rgba(14, 16, 24, 0.72)"
       sidebar-text-color: "#E6EAF2"
       sidebar-selected-text-color: "#2FE3D2"
       sidebar-selected-icon-color: "#2FE3D2"
       sidebar-icon-color: "rgba(230, 234, 242, 0.55)"
-      app-header-background-color: "#06070C"
+      app-header-background-color: "rgba(14, 16, 24, 0.58)"
+      app-header-backdrop-filter: "blur(20px) saturate(150%)"
       app-header-text-color: "#E6EAF2"
       app-header-border-bottom: "1px solid rgba(47, 227, 210, 0.14)"
       app-theme-color: "#06070C"
@@ -368,12 +369,13 @@
 
       bar-box-shadow: "0 2px 12px rgba(11, 15, 26, 0.10)"
 
-      sidebar-background-color: "#FFFFFF"
+      sidebar-background-color: "rgba(255, 255, 255, 0.78)"
       sidebar-text-color: "#0B0F1A"
       sidebar-selected-text-color: "#007A6E"
       sidebar-selected-icon-color: "#007A6E"
       sidebar-icon-color: "rgba(11, 15, 26, 0.55)"
-      app-header-background-color: "#FFFFFF"
+      app-header-background-color: "rgba(255, 255, 255, 0.66)"
+      app-header-backdrop-filter: "blur(20px) saturate(160%)"
       app-header-text-color: "#0B0F1A"
       app-header-border-bottom: "1px solid rgba(0, 122, 110, 0.16)"
       app-theme-color: "#F4F6FB"
@@ -590,12 +592,13 @@
 
       bar-box-shadow: "0 2px 12px rgba(0, 0, 0, 0.68)"
 
-      sidebar-background-color: "#070410"
+      sidebar-background-color: "rgba(19, 16, 32, 0.72)"
       sidebar-text-color: "#EDE9F7"
       sidebar-selected-text-color: "#A99BFF"
       sidebar-selected-icon-color: "#A99BFF"
       sidebar-icon-color: "rgba(237, 233, 247, 0.55)"
-      app-header-background-color: "#0A070F"
+      app-header-background-color: "rgba(19, 16, 32, 0.58)"
+      app-header-backdrop-filter: "blur(20px) saturate(150%)"
       app-header-text-color: "#EDE9F7"
       app-header-border-bottom: "1px solid rgba(169, 155, 255, 0.16)"
       app-theme-color: "#0A070F"
@@ -815,12 +818,13 @@
 
       bar-box-shadow: "0 2px 12px rgba(18, 14, 31, 0.10)"
 
-      sidebar-background-color: "#FFFFFF"
+      sidebar-background-color: "rgba(255, 255, 255, 0.78)"
       sidebar-text-color: "#120E1F"
       sidebar-selected-text-color: "#5B34A8"
       sidebar-selected-icon-color: "#5B34A8"
       sidebar-icon-color: "rgba(18, 14, 31, 0.55)"
-      app-header-background-color: "#FFFFFF"
+      app-header-background-color: "rgba(255, 255, 255, 0.66)"
+      app-header-backdrop-filter: "blur(20px) saturate(160%)"
       app-header-text-color: "#120E1F"
       app-header-border-bottom: "1px solid rgba(91, 52, 168, 0.16)"
       app-theme-color: "#F6F4FB"

@@ -1,6 +1,6 @@
 # Neon Grid · Neon Plasma
 
-`v1.0.3` · Home Assistant 2026.11.x
+`v1.0.4` · Home Assistant 2026.11.x
 
 Home Assistant 赛博朋克主题合集。**零依赖、纯 YAML 变量**，不改 DOM、不注入 JS、不装额外集成 —— 卸载即恢复默认。
 
@@ -91,7 +91,14 @@ frontend:
 
 ## 更新日志
 
-### v1.0.3 · 2026-11-14
+### v1.0.4 · 2026-11-14
+
+- **顶栏与侧栏统一玻璃质感**：`--app-header-background-color: rgba(14,16,24,.58)` + `--app-header-backdrop-filter: blur(20px) saturate(150%)`（原生支持，实测 computed 生效）；`--sidebar-background-color: rgba(14,16,24,.72)`，与卡片同一玻璃基色，不再是纯黑板块。
+- Plasma 用 `rgba(19,16,32,…)` 同色系；亮色顶栏 `rgba(255,255,255,.66)` + `blur(20px) saturate(160%)`、侧栏 `rgba(255,255,255,.78)`。
+- 侧栏无原生 `backdrop-filter` 变量（HA 不支持），故走「同色半透明 + 冷色描边」实现；有壁纸的顶栏模糊最明显。
+- 变量：暗色 202 条、亮色 137 条。
+
+### v1.0.3 · 2026-11-14 · 2026-11-14
 
 - **透明液体玻璃卡片**：暗色 `ha-card-background: rgba(14,16,24,.52)` / `rgba(19,16,32,.52)`，配 `ha-card-backdrop-filter: blur(22px) saturate(150%)`、1px 冷白描边与内高光；亮色 `rgba(255,255,255,.62)` + `blur(20px) saturate(160%)`。
 - 卡片圆角 10px → 14px，贴合玻璃质感。
